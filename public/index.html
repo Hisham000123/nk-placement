@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NK Placement & Salary Portal | 50 Students & Fake Tech Companies</title>
+  <meta name="description" content="Campus placement directory featuring 50 students, tech companies, and detailed salary packages. Powered by Node.js & Express on Port 3000.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Chart.js for analytics -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-wrapper">
+    <!-- Header Navbar -->
+    <header class="app-header">
+      <div class="header-container">
+        <div class="brand-logo">
+          <div class="logo-icon">⚡</div>
+          <div class="logo-text">
+            <h1>NK Placement & Salary Directory</h1>
+            <p>2026 Batch Placement Intelligence Portal</p>
+          </div>
+        </div>
+
+        <div class="header-badges">
+          <span class="badge badge-node"><span class="dot green"></span> Node.js + Express Server</span>
+          <span class="badge badge-port"><span class="pulse-icon"></span> Port: 3000</span>
+          <span class="badge badge-count" id="headerStudentCount">50 Students Loaded</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="main-content">
+      
+      <!-- Top Metrics Row -->
+      <section class="metrics-grid">
+        <div class="metric-card glass-card">
+          <div class="card-icon blue">🎓</div>
+          <div class="card-info">
+            <span class="card-label">Total Batch Students</span>
+            <h3 class="card-value" id="metricTotalStudents">50</h3>
+            <span class="card-subtext" id="metricPlacementRate">96% Placement Success Rate</span>
+          </div>
+        </div>
+
+        <div class="metric-card glass-card">
+          <div class="card-icon green">💰</div>
+          <div class="card-info">
+            <span class="card-label">Average Salary Package</span>
+            <h3 class="card-value" id="metricAvgSalaryUSD">$158,500 <span class="unit">/yr</span></h3>
+            <span class="card-subtext" id="metricAvgSalaryLPA">~42.8 LPA equivalent</span>
+          </div>
+        </div>
+
+        <div class="metric-card glass-card">
+          <div class="card-icon purple">🔥</div>
+          <div class="card-info">
+            <span class="card-label">Highest Package Offered</span>
+            <h3 class="card-value" id="metricMaxSalaryUSD">$250,000 <span class="unit">/yr</span></h3>
+            <span class="card-subtext" id="metricMaxPackageCompany">Hyperion Financial (~67.5 LPA)</span>
+          </div>
+        </div>
+
+        <div class="metric-card glass-card">
+          <div class="card-icon pink">🏢</div>
+          <div class="card-info">
+            <span class="card-label">Partner Tech Companies</span>
+            <h3 class="card-value" id="metricTotalCompanies">12</h3>
+            <span class="card-subtext">Tier 1, Enterprise & Deep Tech</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Navigation Tabs -->
+      <nav class="tab-navigation">
+        <button class="tab-btn active" data-tab="tab-students">
+          <span class="tab-icon">🎓</span> 50 Students Directory
+        </button>
+        <button class="tab-btn" data-tab="tab-companies">
+          <span class="tab-icon">💼</span> Tech Companies & Salary Packages
+        </button>
+        <button class="tab-btn" data-tab="tab-analytics">
+          <span class="tab-icon">📊</span> Package Analytics Dashboard
+        </button>
+        <button class="tab-btn" data-tab="tab-add-student">
+          <span class="tab-icon">➕</span> Register New Placement
+        </button>
+      </nav>
+
+      <!-- Tab 1: Students Directory -->
+      <section id="tab-students" class="tab-content active">
+        <!-- Controls & Filters -->
+        <div class="controls-bar glass-card">
+          <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="searchInput" placeholder="Search by name, student ID, role, company or skills..." />
+            <button id="clearSearchBtn" class="btn-clear" title="Clear search">✕</button>
+          </div>
+
+          <div class="filters-group">
+            <div class="filter-item">
+              <label for="filterCompany">Company</label>
+              <select id="filterCompany">
+                <option value="All">All Companies (12)</option>
+              </select>
+            </div>
+
+            <div class="filter-item">
+              <label for="filterDegree">Degree</label>
+              <select id="filterDegree">
+                <option value="All">All Degrees</option>
+                <option value="Computer Science">Computer Science</option>
+                <option value="Artificial Intelligence">AI & Data Science</option>
+                <option value="Software Engineering">Software Eng</option>
+                <option value="Cybersecurity">Cybersecurity</option>
+              </select>
+            </div>
+
+            <div class="filter-item">
+              <label for="sortBy">Sort By</label>
+              <select id="sortBy">
+                <option value="salaryUSD" selected>Highest Package ($)</option>
+                <option value="gpa">Highest GPA</option>
+                <option value="name">Name (A-Z)</option>
+                <option value="company">Company</option>
+              </select>
+            </div>
+
+            <div class="view-toggle">
+              <button id="viewGridBtn" class="toggle-btn active" title="Grid View">📱 Grid</button>
+              <button id="viewTableBtn" class="toggle-btn" title="Table View">📑 Table</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Active Filter Chips Bar -->
+        <div class="active-filters-bar" id="activeFilterBar">
+          <span class="results-count" id="resultsCount">Showing 50 of 50 students</span>
+        </div>
+
+        <!-- Grid Container -->
+        <div id="studentsGrid" class="students-grid">
+          <!-- Dynamically populated student cards -->
+        </div>
+
+        <!-- Table Container (Hidden by default) -->
+        <div id="studentsTableWrapper" class="table-wrapper glass-card hidden">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Student</th>
+                <th>Degree & GPA</th>
+                <th>Company</th>
+                <th>Role & Location</th>
+                <th>Salary Package (CTC)</th>
+                <th>Status</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="studentsTableBody">
+              <!-- Dynamically populated rows -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Tab 2: Tech Companies & Packages -->
+      <section id="tab-companies" class="tab-content">
+        <div class="section-banner glass-card">
+          <h2>Partner Tech Companies & Salary Breakdown</h2>
+          <p>Detailed CTC structures including Base Salary, Joining Bonus, Stocks/Equity, and Employee Perks.</p>
+        </div>
+
+        <div id="companiesGrid" class="companies-grid">
+          <!-- Dynamically populated company cards -->
+        </div>
+      </section>
+
+      <!-- Tab 3: Analytics Dashboard -->
+      <section id="tab-analytics" class="tab-content">
+        <div class="section-banner glass-card">
+          <h2>Salary & Placement Analytics</h2>
+          <p>Distribution charts comparing compensation tiers, top recruiters, and degree-wise average packages.</p>
+        </div>
+
+        <div class="analytics-grid">
+          <div class="chart-card glass-card">
+            <h3>Company Salary Tier Distribution ($ CTC)</h3>
+            <div class="chart-wrapper">
+              <canvas id="salaryDistChart"></canvas>
+            </div>
+          </div>
+
+          <div class="chart-card glass-card">
+            <h3>Top Hiring Recruiters (Students Count)</h3>
+            <div class="chart-wrapper">
+              <canvas id="topRecruitersChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab 4: Add New Placement Record -->
+      <section id="tab-add-student" class="tab-content">
+        <div class="form-container glass-card">
+          <div class="form-header">
+            <h2>Register New Student Placement</h2>
+            <p>Add a student placement record dynamically into the Node.js database.</p>
+          </div>
+
+          <form id="addStudentForm" class="placement-form">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="newStudentName">Full Name *</label>
+                <input type="text" id="newStudentName" placeholder="e.g. Alex Morgan" required />
+              </div>
+
+              <div class="form-group">
+                <label for="newStudentEmail">Email Address *</label>
+                <input type="email" id="newStudentEmail" placeholder="alex.morgan@university.edu" required />
+              </div>
+
+              <div class="form-group">
+                <label for="newStudentDegree">Degree Program *</label>
+                <select id="newStudentDegree" required>
+                  <option value="B.Tech Computer Science & Engineering">B.Tech Computer Science & Engineering</option>
+                  <option value="B.Tech Artificial Intelligence & Data Science">B.Tech AI & Data Science</option>
+                  <option value="M.S. Computer Science">M.S. Computer Science</option>
+                  <option value="B.S. Software Engineering">B.S. Software Engineering</option>
+                  <option value="B.Tech Cybersecurity & Privacy">B.Tech Cybersecurity</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="newStudentGPA">Cumulative GPA (4.0 Scale) *</label>
+                <input type="number" step="0.01" min="2.00" max="4.00" id="newStudentGPA" value="3.85" required />
+              </div>
+
+              <div class="form-group">
+                <label for="newStudentCompany">Hiring Company *</label>
+                <input type="text" id="newStudentCompany" placeholder="e.g. QuantumPulse Labs" required />
+              </div>
+
+              <div class="form-group">
+                <label for="newStudentRole">Offered Role *</label>
+                <input type="text" id="newStudentRole" placeholder="e.g. Senior Machine Learning Engineer" required />
+              </div>
+
+              <div class="form-group">
+                <label for="newStudentSalary">Total Package CTC (USD / Year) *</label>
+                <input type="number" id="newStudentSalary" placeholder="e.g. 175000" min="50000" step="5000" required />
+              </div>
+
+              <div class="form-group">
+                <label for="newStudentLocation">Job Location</label>
+                <input type="text" id="newStudentLocation" placeholder="e.g. San Francisco, CA / Remote" value="San Francisco, CA" />
+              </div>
+
+              <div class="form-group full-width">
+                <label for="newStudentSkills">Technical Skills (Comma separated)</label>
+                <input type="text" id="newStudentSkills" placeholder="Node.js, React, PyTorch, C++, Cloud Architecture" value="Node.js, Python, AWS, Docker" />
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn-submit">🚀 Submit Placement Record</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Modal for Detailed Salary Package Breakdown -->
+    <div id="salaryModal" class="modal-overlay hidden">
+      <div class="modal-card glass-card">
+        <button class="modal-close" id="closeModalBtn">✕</button>
+
+        <div class="modal-header">
+          <div class="modal-student-avatar" id="modalAvatar">JS</div>
+          <div>
+            <h2 id="modalStudentName">Student Name</h2>
+            <p id="modalStudentMeta">STU-2026-001 | B.Tech CS (GPA 3.92)</p>
+          </div>
+        </div>
+
+        <div class="modal-body">
+          <div class="offer-headline">
+            <div class="company-badge-large">
+              <span id="modalCompanyLogo">⚡</span>
+              <div class="comp-details">
+                <h4 id="modalCompanyName">QuantumPulse Labs</h4>
+                <span id="modalRole">Quantum ML Researcher</span>
+              </div>
+            </div>
+
+            <div class="ctc-pill-large">
+              <span class="ctc-label">Total CTC Package</span>
+              <span class="ctc-amount" id="modalTotalCTC">$195,000 /yr</span>
+              <span class="ctc-sub" id="modalLPA">~52.7 LPA</span>
+            </div>
+          </div>
+
+          <h3 class="section-title">Compensation & Salary Structure</h3>
+          <div class="salary-breakdown-cards">
+            <div class="breakdown-box">
+              <span class="box-label">Base Salary</span>
+              <h4 id="modalBaseSalary">$145,000</h4>
+              <span class="box-percent" id="modalBasePct">74% of CTC</span>
+            </div>
+
+            <div class="breakdown-box">
+              <span class="box-label">Joining Bonus</span>
+              <h4 id="modalJoiningBonus">$25,000</h4>
+              <span class="box-percent" id="modalBonusPct">13% of CTC</span>
+            </div>
+
+            <div class="breakdown-box">
+              <span class="box-label">Stock / Equity Grant</span>
+              <h4 id="modalEquity">$25,000</h4>
+              <span class="box-percent" id="modalEquityPct">13% of CTC</span>
+            </div>
+          </div>
+
+          <h3 class="section-title">Technical Skills & Location</h3>
+          <div class="modal-tags" id="modalSkills">
+            <!-- Skill pills -->
+          </div>
+          <p class="location-text">📍 Location: <span id="modalLocation">San Francisco, CA</span></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <p>NK Campus Placement System &copy; 2026 | Built with 💚 Node.js, Express & Vanilla CSS on Port 3000</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

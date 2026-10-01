@@ -1,0 +1,242 @@
+[
+  {
+    "id": "comp-1",
+    "name": "QuantumPulse Labs",
+    "industry": "Artificial Intelligence & Quantum Computing",
+    "logo": "⚡",
+    "tier": "Tier 1 Top Tier",
+    "location": "San Francisco, CA (Hybrid)",
+    "averagePackageUSD": 195000,
+    "highestPackageUSD": 230000,
+    "averagePackageLPA": 52.5,
+    "rolesOffered": ["Quantum ML Researcher", "AI Core Engineer", "Algorithmic Scientist"],
+    "packageBreakdown": {
+      "base": 145000,
+      "bonus": 25000,
+      "equity": 25000,
+      "perks": ["Unlimited PTO", "$5,000 Tech Stipend", "Relocation Allowance", "Health & Wellness Allowance"]
+    },
+    "hiresCount": 6,
+    "description": "Leading research lab pushing the frontiers of quantum machine learning and neural architecture search."
+  },
+  {
+    "id": "comp-2",
+    "name": "Hyperion Financial",
+    "industry": "FinTech & Algorithmic Trading",
+    "logo": "📈",
+    "tier": "Tier 1 Top Tier",
+    "location": "New York, NY (On-site)",
+    "averagePackageUSD": 210000,
+    "highestPackageUSD": 250000,
+    "averagePackageLPA": 58.0,
+    "rolesOffered": ["Quantitative Developer", "Low-Latency C++ Engineer", "Financial Risk Analyst"],
+    "packageBreakdown": {
+      "base": 160000,
+      "bonus": 35000,
+      "equity": 15000,
+      "perks": ["Performance Bonus Pool", "Catered Meals", "Comprehensive Medical/Dental", "401(k) 100% Match"]
+    },
+    "hiresCount": 5,
+    "description": "High-frequency trading and quantitative asset management firm building ultra-low-latency financial engines."
+  },
+  {
+    "id": "comp-3",
+    "name": "NK Cybernetics",
+    "industry": "Autonomous Systems & AI",
+    "logo": "🌐",
+    "tier": "Tier 1 Top Tier",
+    "location": "Austin, TX / Remote",
+    "averagePackageUSD": 165000,
+    "highestPackageUSD": 190000,
+    "averagePackageLPA": 42.0,
+    "rolesOffered": ["SDE II", "Computer Vision Specialist", "Edge AI Developer"],
+    "packageBreakdown": {
+      "base": 125000,
+      "bonus": 20000,
+      "equity": 20000,
+      "perks": ["Remote Work Budget", "Stock Options", "Learning & Conference Grants"]
+    },
+    "hiresCount": 8,
+    "description": "Building next-generation intelligent robotics and real-time vision processing pipelines."
+  },
+  {
+    "id": "comp-4",
+    "name": "Zenith Blockchain Labs",
+    "industry": "Web3 & Decentralized Infrastructure",
+    "logo": "⛓️",
+    "tier": "Tier 1 Top Tier",
+    "location": "Seattle, WA / Remote",
+    "averagePackageUSD": 175000,
+    "highestPackageUSD": 210000,
+    "averagePackageLPA": 45.0,
+    "rolesOffered": ["Smart Contract Auditor", "Zero-Knowledge Engineer", "Distributed Systems Lead"],
+    "packageBreakdown": {
+      "base": 135000,
+      "bonus": 15000,
+      "equity": 25000,
+      "perks": ["Token Allocations", "Flexible Hours", "Global Offsite Retreats"]
+    },
+    "hiresCount": 4,
+    "description": "Pioneering high-throughput layer-1 consensus mechanisms and privacy-preserving cryptosystems."
+  },
+  {
+    "id": "comp-5",
+    "name": "CyberShield AI",
+    "industry": "Cybersecurity & Threat Intelligence",
+    "logo": "🛡️",
+    "tier": "Tier 2 Enterprise",
+    "location": "Boston, MA (Hybrid)",
+    "averagePackageUSD": 160000,
+    "highestPackageUSD": 180000,
+    "averagePackageLPA": 40.0,
+    "rolesOffered": ["Security Operations Engineer", "Penetration Tester", "Cloud Security Architect"],
+    "packageBreakdown": {
+      "base": 120000,
+      "bonus": 20000,
+      "equity": 20000,
+      "perks": ["Security Certification Reimbursement", "Home Office Setup", "Health Insurance"]
+    },
+    "hiresCount": 5,
+    "description": "AI-driven cybersecurity platform neutralizing enterprise cyber threats in real time."
+  },
+  {
+    "id": "comp-6",
+    "name": "OmniData Analytics",
+    "industry": "Big Data & Business Intelligence",
+    "logo": "📊",
+    "tier": "Tier 2 Enterprise",
+    "location": "Chicago, IL (Hybrid)",
+    "averagePackageUSD": 150000,
+    "highestPackageUSD": 170000,
+    "averagePackageLPA": 36.0,
+    "rolesOffered": ["Data Engineer", "BI Analytics Engineer", "ETL Specialist"],
+    "packageBreakdown": {
+      "base": 115000,
+      "bonus": 18000,
+      "equity": 17000,
+      "perks": ["Annual Education Allowance", "Tuition Reimbursement", "Gym Membership"]
+    },
+    "hiresCount": 6,
+    "description": "Enterprise cloud data warehousing and real-time streaming analytics engine."
+  },
+  {
+    "id": "comp-7",
+    "name": "Aether Dynamics",
+    "industry": "Cloud Computing & Infrastructure",
+    "logo": "☁️",
+    "tier": "Tier 2 Enterprise",
+    "location": "Denver, CO (Hybrid)",
+    "averagePackageUSD": 145000,
+    "highestPackageUSD": 165000,
+    "averagePackageLPA": 34.0,
+    "rolesOffered": ["Cloud Solutions Architect", "Kubernetes Engineer", "Infrastructure Engineer"],
+    "packageBreakdown": {
+      "base": 110000,
+      "bonus": 15000,
+      "equity": 20000,
+      "perks": ["Cloud Certification Bonuses", "Flexible Vacation", "Relocation Package"]
+    },
+    "hiresCount": 4,
+    "description": "Hyperscale multi-cloud orchestration and containerized runtime infrastructure."
+  },
+  {
+    "id": "comp-8",
+    "name": "Vortex Cloud Tech",
+    "industry": "DevOps & Platform Engineering",
+    "logo": "🌀",
+    "tier": "Tier 2 Enterprise",
+    "location": "San Jose, CA (On-site)",
+    "averagePackageUSD": 140000,
+    "highestPackageUSD": 160000,
+    "averagePackageLPA": 30.0,
+    "rolesOffered": ["Site Reliability Engineer", "DevOps Specialist", "CI/CD Pipeline Lead"],
+    "packageBreakdown": {
+      "base": 105000,
+      "bonus": 15000,
+      "equity": 20000,
+      "perks": ["On-Call Compensation", "Free Lunch & Snacks", "Commuter Benefits"]
+    },
+    "hiresCount": 4,
+    "description": "Developer tooling and automated CI/CD pipeline infrastructure for modern engineering teams."
+  },
+  {
+    "id": "comp-9",
+    "name": "Novus HealthTech",
+    "industry": "Biotech & Digital Health",
+    "logo": "🧬",
+    "tier": "Tier 2 Enterprise",
+    "location": "Raleigh, NC (Hybrid)",
+    "averagePackageUSD": 130000,
+    "highestPackageUSD": 150000,
+    "averagePackageLPA": 26.0,
+    "rolesOffered": ["HealthTech Software Engineer", "Bioinformatics Pipeline Engineer", "HIPAA Data Compliance Dev"],
+    "packageBreakdown": {
+      "base": 100000,
+      "bonus": 15000,
+      "equity": 15000,
+      "perks": ["Full Family Medical Plan", "Wellness Stipend", "Parental Leave"]
+    },
+    "hiresCount": 3,
+    "description": "Transforming patient diagnostics and clinical trials using machine learning pipelines."
+  },
+  {
+    "id": "comp-10",
+    "name": "Apex Robotics",
+    "industry": "Industrial Automation & Mechatronics",
+    "logo": "🤖",
+    "tier": "Tier 3 Emerging Tech",
+    "location": "Detroit, MI (On-site)",
+    "averagePackageUSD": 135000,
+    "highestPackageUSD": 155000,
+    "averagePackageLPA": 28.0,
+    "rolesOffered": ["Embedded Firmware Engineer", "Control Systems Engineer", "ROS Developer"],
+    "packageBreakdown": {
+      "base": 102000,
+      "bonus": 15000,
+      "equity": 18000,
+      "perks": ["Lab Equipment Budget", "Patent Bonuses", "Health Coverage"]
+    },
+    "hiresCount": 2,
+    "description": "Autonomous warehouse logistics and precision manufacturing robotics."
+  },
+  {
+    "id": "comp-11",
+    "name": "Starlight Systems",
+    "industry": "Web & Mobile SaaS Platforms",
+    "logo": "⭐",
+    "tier": "Tier 3 Emerging Tech",
+    "location": "Atlanta, GA / Remote",
+    "averagePackageUSD": 125000,
+    "highestPackageUSD": 145000,
+    "averagePackageLPA": 25.0,
+    "rolesOffered": ["Full Stack Developer", "Frontend Engineer (React/Node)", "API Backend Engineer"],
+    "packageBreakdown": {
+      "base": 95000,
+      "bonus": 12000,
+      "equity": 18000,
+      "perks": ["100% Remote", "Annual Gadget Allowance", "Stock Options"]
+    },
+    "hiresCount": 2,
+    "description": "B2B SaaS application suites serving over 5 million daily active workflow users."
+  },
+  {
+    "id": "comp-12",
+    "name": "Prism Interactive",
+    "industry": "Gaming & Extended Reality (XR)",
+    "logo": "🎮",
+    "tier": "Tier 3 Emerging Tech",
+    "location": "Los Angeles, CA (On-site)",
+    "averagePackageUSD": 120000,
+    "highestPackageUSD": 140000,
+    "averagePackageLPA": 24.0,
+    "rolesOffered": ["Unreal Engine Developer", "3D Graphics Programmer", "Shaders Specialist"],
+    "packageBreakdown": {
+      "base": 92000,
+      "bonus": 13000,
+      "equity": 15000,
+      "perks": ["Console & VR Gaming Rig Stipend", "Creative Sabbatical", "Free Game Credits"]
+    },
+    "hiresCount": 1,
+    "description": "Real-time 3D simulation engines and immersive virtual production platforms."
+  }
+]

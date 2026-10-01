@@ -1,0 +1,1502 @@
+[
+  {
+    "id": 1,
+    "studentId": "STU-2026-001",
+    "name": "Aarav Sharma",
+    "email": "aarav.sharma@university.edu",
+    "degree": "B.Tech Artificial Intelligence & Data Science",
+    "gpa": 3.95,
+    "status": "Placed",
+    "company": "QuantumPulse Labs",
+    "companyLogo": "⚡",
+    "role": "AI Core Engineer",
+    "location": "New York, NY",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "C++",
+      "Go"
+    ],
+    "salaryPackage": {
+      "totalUSD": 195000,
+      "totalLPA": 52.7,
+      "baseUSD": 142500,
+      "joiningBonusUSD": 26000,
+      "equityUSD": 26500,
+      "currencyDisplayUSD": "$1,95,000 /yr",
+      "currencyDisplayLPA": "52.7 LPA"
+    },
+    "avatarInitials": "AS",
+    "placedDate": "2026-02-04"
+  },
+  {
+    "id": 2,
+    "studentId": "STU-2026-002",
+    "name": "Sophia Smith",
+    "email": "sophia.smith@university.edu",
+    "degree": "M.S. Computer Science",
+    "gpa": 3.97,
+    "status": "Placed",
+    "company": "Hyperion Financial",
+    "companyLogo": "📈",
+    "role": "Financial Risk Analyst",
+    "location": "Seattle, WA",
+    "skills": [
+      "Go",
+      "Kubernetes",
+      "Docker",
+      "AWS"
+    ],
+    "salaryPackage": {
+      "totalUSD": 215000,
+      "totalLPA": 58.1,
+      "baseUSD": 160000,
+      "joiningBonusUSD": 37000,
+      "equityUSD": 18000,
+      "currencyDisplayUSD": "$2,15,000 /yr",
+      "currencyDisplayLPA": "58.1 LPA"
+    },
+    "avatarInitials": "SS",
+    "placedDate": "2026-03-07"
+  },
+  {
+    "id": 3,
+    "studentId": "STU-2026-003",
+    "name": "Liam Patel Singh",
+    "email": "liam.patelsingh@university.edu",
+    "degree": "B.S. Software Engineering",
+    "gpa": 3.74,
+    "status": "Placed",
+    "company": "NK Cybernetics",
+    "companyLogo": "🌐",
+    "role": "SDE II",
+    "location": "Austin, TX",
+    "skills": [
+      "AWS",
+      "PostgreSQL",
+      "MongoDB",
+      "GraphQL"
+    ],
+    "salaryPackage": {
+      "totalUSD": 172000,
+      "totalLPA": 46.5,
+      "baseUSD": 127500,
+      "joiningBonusUSD": 20000,
+      "equityUSD": 24500,
+      "currencyDisplayUSD": "$1,72,000 /yr",
+      "currencyDisplayLPA": "46.5 LPA"
+    },
+    "avatarInitials": "LS",
+    "placedDate": "2026-04-10"
+  },
+  {
+    "id": 4,
+    "studentId": "STU-2026-004",
+    "name": "Ananya Johnson",
+    "email": "ananya.johnson@university.edu",
+    "degree": "B.Tech Cybersecurity & Privacy",
+    "gpa": 3.47,
+    "status": "Placed",
+    "company": "Zenith Blockchain Labs",
+    "companyLogo": "⛓️",
+    "role": "Zero-Knowledge Engineer",
+    "location": "Boston, MA",
+    "skills": [
+      "GraphQL",
+      "Rust",
+      "Kafka",
+      "TensorFlow"
+    ],
+    "salaryPackage": {
+      "totalUSD": 181000,
+      "totalLPA": 48.9,
+      "baseUSD": 140000,
+      "joiningBonusUSD": 16000,
+      "equityUSD": 25000,
+      "currencyDisplayUSD": "$1,81,000 /yr",
+      "currencyDisplayLPA": "48.9 LPA"
+    },
+    "avatarInitials": "AJ",
+    "placedDate": "2026-05-13"
+  },
+  {
+    "id": 5,
+    "studentId": "STU-2026-005",
+    "name": "Ethan Gupta",
+    "email": "ethan.gupta@university.edu",
+    "degree": "M.S. Data Analytics & AI",
+    "gpa": 3.41,
+    "status": "Placed",
+    "company": "CyberShield AI",
+    "companyLogo": "🛡️",
+    "role": "Cloud Security Architect",
+    "location": "Chicago, IL",
+    "skills": [
+      "TensorFlow",
+      "Solidity",
+      "System Design",
+      "Redis"
+    ],
+    "salaryPackage": {
+      "totalUSD": 158500,
+      "totalLPA": 42.8,
+      "baseUSD": 115000,
+      "joiningBonusUSD": 22000,
+      "equityUSD": 21500,
+      "currencyDisplayUSD": "$1,58,500 /yr",
+      "currencyDisplayLPA": "42.8 LPA"
+    },
+    "avatarInitials": "EG",
+    "placedDate": "2026-06-16"
+  },
+  {
+    "id": 6,
+    "studentId": "STU-2026-006",
+    "name": "Olivia Williams",
+    "email": "olivia.williams@university.edu",
+    "degree": "B.Tech Robotics & Automation",
+    "gpa": 3.62,
+    "status": "Placed",
+    "company": "OmniData Analytics",
+    "companyLogo": "📊",
+    "role": "Data Engineer",
+    "location": "Denver, CO",
+    "skills": [
+      "Redis",
+      "Next.js",
+      "OpenCV",
+      "Spark"
+    ],
+    "salaryPackage": {
+      "totalUSD": 150500,
+      "totalLPA": 40.7,
+      "baseUSD": 112500,
+      "joiningBonusUSD": 18000,
+      "equityUSD": 20000,
+      "currencyDisplayUSD": "$1,50,500 /yr",
+      "currencyDisplayLPA": "40.7 LPA"
+    },
+    "avatarInitials": "OW",
+    "placedDate": "2026-07-19"
+  },
+  {
+    "id": 7,
+    "studentId": "STU-2026-007",
+    "name": "Rohan Verma",
+    "email": "rohan.verma@university.edu",
+    "degree": "B.Tech Computer Science & Engineering",
+    "gpa": 3.9,
+    "status": "Placed",
+    "company": "Aether Dynamics",
+    "companyLogo": "☁️",
+    "role": "Kubernetes Engineer",
+    "location": "San Jose, CA",
+    "skills": [
+      "Spark",
+      "Linux Kernel",
+      "Node.js",
+      "React"
+    ],
+    "salaryPackage": {
+      "totalUSD": 150500,
+      "totalLPA": 40.7,
+      "baseUSD": 110000,
+      "joiningBonusUSD": 16000,
+      "equityUSD": 24500,
+      "currencyDisplayUSD": "$1,50,500 /yr",
+      "currencyDisplayLPA": "40.7 LPA"
+    },
+    "avatarInitials": "RV",
+    "placedDate": "2026-08-22"
+  },
+  {
+    "id": 8,
+    "studentId": "STU-2026-008",
+    "name": "Emma Brown",
+    "email": "emma.brown@university.edu",
+    "degree": "B.Tech Artificial Intelligence & Data Science",
+    "gpa": 4,
+    "status": "Placed",
+    "company": "Vortex Cloud Tech",
+    "companyLogo": "🌀",
+    "role": "CI/CD Pipeline Lead",
+    "location": "Remote",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Python",
+      "PyTorch"
+    ],
+    "salaryPackage": {
+      "totalUSD": 144500,
+      "totalLPA": 39.1,
+      "baseUSD": 107500,
+      "joiningBonusUSD": 17000,
+      "equityUSD": 20000,
+      "currencyDisplayUSD": "$1,44,500 /yr",
+      "currencyDisplayLPA": "39.1 LPA"
+    },
+    "avatarInitials": "EB",
+    "placedDate": "2026-01-25"
+  },
+  {
+    "id": 9,
+    "studentId": "STU-2026-009",
+    "name": "Noah Rao",
+    "email": "noah.rao@university.edu",
+    "degree": "M.S. Computer Science",
+    "gpa": 3.82,
+    "status": "Placed",
+    "company": "Novus HealthTech",
+    "companyLogo": "🧬",
+    "role": "HealthTech Software Engineer",
+    "location": "San Francisco, CA",
+    "skills": [
+      "PyTorch",
+      "C++",
+      "Go",
+      "Kubernetes"
+    ],
+    "salaryPackage": {
+      "totalUSD": 136500,
+      "totalLPA": 36.9,
+      "baseUSD": 105000,
+      "joiningBonusUSD": 15000,
+      "equityUSD": 16500,
+      "currencyDisplayUSD": "$1,36,500 /yr",
+      "currencyDisplayLPA": "36.9 LPA"
+    },
+    "avatarInitials": "NR",
+    "placedDate": "2026-02-28"
+  },
+  {
+    "id": 10,
+    "studentId": "STU-2026-010",
+    "name": "Diya Jones",
+    "email": "diya.jones@university.edu",
+    "degree": "B.S. Software Engineering",
+    "gpa": 3.54,
+    "status": "Placed",
+    "company": "Apex Robotics",
+    "companyLogo": "🤖",
+    "role": "Control Systems Engineer",
+    "location": "New York, NY",
+    "skills": [
+      "Kubernetes",
+      "Docker",
+      "AWS",
+      "PostgreSQL"
+    ],
+    "salaryPackage": {
+      "totalUSD": 134000,
+      "totalLPA": 36.2,
+      "baseUSD": 97000,
+      "joiningBonusUSD": 16000,
+      "equityUSD": 21000,
+      "currencyDisplayUSD": "$1,34,000 /yr",
+      "currencyDisplayLPA": "36.2 LPA"
+    },
+    "avatarInitials": "DJ",
+    "placedDate": "2026-03-03"
+  },
+  {
+    "id": 11,
+    "studentId": "STU-2026-011",
+    "name": "Lucas Deshmukh",
+    "email": "lucas.deshmukh@university.edu",
+    "degree": "B.Tech Cybersecurity & Privacy",
+    "gpa": 3.4,
+    "status": "Placed",
+    "company": "Starlight Systems",
+    "companyLogo": "⭐",
+    "role": "API Backend Engineer",
+    "location": "Seattle, WA",
+    "skills": [
+      "PostgreSQL",
+      "MongoDB",
+      "GraphQL",
+      "Rust"
+    ],
+    "salaryPackage": {
+      "totalUSD": 129000,
+      "totalLPA": 34.9,
+      "baseUSD": 92500,
+      "joiningBonusUSD": 14000,
+      "equityUSD": 22500,
+      "currencyDisplayUSD": "$1,29,000 /yr",
+      "currencyDisplayLPA": "34.9 LPA"
+    },
+    "avatarInitials": "LD",
+    "placedDate": "2026-04-06"
+  },
+  {
+    "id": 12,
+    "studentId": "STU-2026-012",
+    "name": "Ava Garcia",
+    "email": "ava.garcia@university.edu",
+    "degree": "M.S. Data Analytics & AI",
+    "gpa": 3.54,
+    "status": "Placed",
+    "company": "Prism Interactive",
+    "companyLogo": "🎮",
+    "role": "Unreal Engine Developer",
+    "location": "Austin, TX",
+    "skills": [
+      "Rust",
+      "Kafka",
+      "TensorFlow",
+      "Solidity"
+    ],
+    "salaryPackage": {
+      "totalUSD": 120000,
+      "totalLPA": 32.4,
+      "baseUSD": 92000,
+      "joiningBonusUSD": 13000,
+      "equityUSD": 15000,
+      "currencyDisplayUSD": "$1,20,000 /yr",
+      "currencyDisplayLPA": "32.4 LPA"
+    },
+    "avatarInitials": "AG",
+    "placedDate": "2026-05-09"
+  },
+  {
+    "id": 13,
+    "studentId": "STU-2026-013",
+    "name": "Vikram Nair",
+    "email": "vikram.nair@university.edu",
+    "degree": "B.Tech Robotics & Automation",
+    "gpa": 3.83,
+    "status": "Placed",
+    "company": "QuantumPulse Labs",
+    "companyLogo": "⚡",
+    "role": "AI Core Engineer",
+    "location": "Boston, MA",
+    "skills": [
+      "Solidity",
+      "System Design",
+      "Redis",
+      "Next.js"
+    ],
+    "salaryPackage": {
+      "totalUSD": 200000,
+      "totalLPA": 54.1,
+      "baseUSD": 147500,
+      "joiningBonusUSD": 26000,
+      "equityUSD": 26500,
+      "currencyDisplayUSD": "$2,00,000 /yr",
+      "currencyDisplayLPA": "54.1 LPA"
+    },
+    "avatarInitials": "VN",
+    "placedDate": "2026-06-12"
+  },
+  {
+    "id": 14,
+    "studentId": "STU-2026-014",
+    "name": "Isabella Miller",
+    "email": "isabella.miller@university.edu",
+    "degree": "B.Tech Computer Science & Engineering",
+    "gpa": 4,
+    "status": "Placed",
+    "company": "Hyperion Financial",
+    "companyLogo": "📈",
+    "role": "Financial Risk Analyst",
+    "location": "Chicago, IL",
+    "skills": [
+      "Next.js",
+      "OpenCV",
+      "Spark",
+      "Linux Kernel"
+    ],
+    "salaryPackage": {
+      "totalUSD": 220000,
+      "totalLPA": 59.5,
+      "baseUSD": 165000,
+      "joiningBonusUSD": 37000,
+      "equityUSD": 18000,
+      "currencyDisplayUSD": "$2,20,000 /yr",
+      "currencyDisplayLPA": "59.5 LPA"
+    },
+    "avatarInitials": "IM",
+    "placedDate": "2026-07-15"
+  },
+  {
+    "id": 15,
+    "studentId": "STU-2026-015",
+    "name": "Mason Chopra",
+    "email": "mason.chopra@university.edu",
+    "degree": "B.Tech Artificial Intelligence & Data Science",
+    "gpa": 3.9,
+    "status": "Offered (Pending Acceptance)",
+    "company": "NK Cybernetics",
+    "companyLogo": "🌐",
+    "role": "SDE II",
+    "location": "Denver, CO",
+    "skills": [
+      "Linux Kernel",
+      "Node.js",
+      "React",
+      "TypeScript"
+    ],
+    "salaryPackage": {
+      "totalUSD": 164500,
+      "totalLPA": 44.5,
+      "baseUSD": 120000,
+      "joiningBonusUSD": 20000,
+      "equityUSD": 24500,
+      "currencyDisplayUSD": "$1,64,500 /yr",
+      "currencyDisplayLPA": "44.5 LPA"
+    },
+    "avatarInitials": "MC",
+    "placedDate": "2026-08-18"
+  },
+  {
+    "id": 16,
+    "studentId": "STU-2026-016",
+    "name": "Priya Davis",
+    "email": "priya.davis@university.edu",
+    "degree": "M.S. Computer Science",
+    "gpa": 3.61,
+    "status": "Placed",
+    "company": "Zenith Blockchain Labs",
+    "companyLogo": "⛓️",
+    "role": "Zero-Knowledge Engineer",
+    "location": "San Jose, CA",
+    "skills": [
+      "TypeScript",
+      "Python",
+      "PyTorch",
+      "C++"
+    ],
+    "salaryPackage": {
+      "totalUSD": 173500,
+      "totalLPA": 46.9,
+      "baseUSD": 132500,
+      "joiningBonusUSD": 16000,
+      "equityUSD": 25000,
+      "currencyDisplayUSD": "$1,73,500 /yr",
+      "currencyDisplayLPA": "46.9 LPA"
+    },
+    "avatarInitials": "PD",
+    "placedDate": "2026-01-21"
+  },
+  {
+    "id": 17,
+    "studentId": "STU-2026-017",
+    "name": "Logan Reddy",
+    "email": "logan.reddy@university.edu",
+    "degree": "B.S. Software Engineering",
+    "gpa": 3.41,
+    "status": "Placed",
+    "company": "CyberShield AI",
+    "companyLogo": "🛡️",
+    "role": "Cloud Security Architect",
+    "location": "Remote",
+    "skills": [
+      "C++",
+      "Go",
+      "Kubernetes",
+      "Docker"
+    ],
+    "salaryPackage": {
+      "totalUSD": 163500,
+      "totalLPA": 44.2,
+      "baseUSD": 120000,
+      "joiningBonusUSD": 22000,
+      "equityUSD": 21500,
+      "currencyDisplayUSD": "$1,63,500 /yr",
+      "currencyDisplayLPA": "44.2 LPA"
+    },
+    "avatarInitials": "LR",
+    "placedDate": "2026-02-24"
+  },
+  {
+    "id": 18,
+    "studentId": "STU-2026-018",
+    "name": "Mia Rodriguez",
+    "email": "mia.rodriguez@university.edu",
+    "degree": "B.Tech Cybersecurity & Privacy",
+    "gpa": 3.47,
+    "status": "Placed",
+    "company": "OmniData Analytics",
+    "companyLogo": "📊",
+    "role": "Data Engineer",
+    "location": "San Francisco, CA",
+    "skills": [
+      "Docker",
+      "AWS",
+      "PostgreSQL",
+      "MongoDB"
+    ],
+    "salaryPackage": {
+      "totalUSD": 155500,
+      "totalLPA": 42,
+      "baseUSD": 117500,
+      "joiningBonusUSD": 18000,
+      "equityUSD": 20000,
+      "currencyDisplayUSD": "$1,55,500 /yr",
+      "currencyDisplayLPA": "42.0 LPA"
+    },
+    "avatarInitials": "MR",
+    "placedDate": "2026-03-27"
+  },
+  {
+    "id": 19,
+    "studentId": "STU-2026-019",
+    "name": "Aditya Kumar",
+    "email": "aditya.kumar@university.edu",
+    "degree": "M.S. Data Analytics & AI",
+    "gpa": 3.74,
+    "status": "Placed",
+    "company": "Aether Dynamics",
+    "companyLogo": "☁️",
+    "role": "Kubernetes Engineer",
+    "location": "New York, NY",
+    "skills": [
+      "MongoDB",
+      "GraphQL",
+      "Rust",
+      "Kafka"
+    ],
+    "salaryPackage": {
+      "totalUSD": 155500,
+      "totalLPA": 42,
+      "baseUSD": 115000,
+      "joiningBonusUSD": 16000,
+      "equityUSD": 24500,
+      "currencyDisplayUSD": "$1,55,500 /yr",
+      "currencyDisplayLPA": "42.0 LPA"
+    },
+    "avatarInitials": "AK",
+    "placedDate": "2026-04-02"
+  },
+  {
+    "id": 20,
+    "studentId": "STU-2026-020",
+    "name": "Charlotte Martinez",
+    "email": "charlotte.martinez@university.edu",
+    "degree": "B.Tech Robotics & Automation",
+    "gpa": 3.97,
+    "status": "Placed",
+    "company": "Vortex Cloud Tech",
+    "companyLogo": "🌀",
+    "role": "CI/CD Pipeline Lead",
+    "location": "Seattle, WA",
+    "skills": [
+      "Kafka",
+      "TensorFlow",
+      "Solidity",
+      "System Design"
+    ],
+    "salaryPackage": {
+      "totalUSD": 137000,
+      "totalLPA": 37,
+      "baseUSD": 100000,
+      "joiningBonusUSD": 17000,
+      "equityUSD": 20000,
+      "currencyDisplayUSD": "$1,37,000 /yr",
+      "currencyDisplayLPA": "37.0 LPA"
+    },
+    "avatarInitials": "CM",
+    "placedDate": "2026-05-05"
+  },
+  {
+    "id": 21,
+    "studentId": "STU-2026-021",
+    "name": "Alexander Mehta",
+    "email": "alexander.mehta@university.edu",
+    "degree": "B.Tech Computer Science & Engineering",
+    "gpa": 3.95,
+    "status": "Placed",
+    "company": "Novus HealthTech",
+    "companyLogo": "🧬",
+    "role": "HealthTech Software Engineer",
+    "location": "Austin, TX",
+    "skills": [
+      "System Design",
+      "Redis",
+      "Next.js",
+      "OpenCV"
+    ],
+    "salaryPackage": {
+      "totalUSD": 129000,
+      "totalLPA": 34.9,
+      "baseUSD": 97500,
+      "joiningBonusUSD": 15000,
+      "equityUSD": 16500,
+      "currencyDisplayUSD": "$1,29,000 /yr",
+      "currencyDisplayLPA": "34.9 LPA"
+    },
+    "avatarInitials": "AM",
+    "placedDate": "2026-06-08"
+  },
+  {
+    "id": 22,
+    "studentId": "STU-2026-022",
+    "name": "Amara Hernandez",
+    "email": "amara.hernandez@university.edu",
+    "degree": "B.Tech Artificial Intelligence & Data Science",
+    "gpa": 3.7,
+    "status": "Placed",
+    "company": "Apex Robotics",
+    "companyLogo": "🤖",
+    "role": "Control Systems Engineer",
+    "location": "Boston, MA",
+    "skills": [
+      "OpenCV",
+      "Spark",
+      "Linux Kernel",
+      "Node.js"
+    ],
+    "salaryPackage": {
+      "totalUSD": 139000,
+      "totalLPA": 37.6,
+      "baseUSD": 102000,
+      "joiningBonusUSD": 16000,
+      "equityUSD": 21000,
+      "currencyDisplayUSD": "$1,39,000 /yr",
+      "currencyDisplayLPA": "37.6 LPA"
+    },
+    "avatarInitials": "AH",
+    "placedDate": "2026-07-11"
+  },
+  {
+    "id": 23,
+    "studentId": "STU-2026-023",
+    "name": "Benjamin Joshi",
+    "email": "benjamin.joshi@university.edu",
+    "degree": "M.S. Computer Science",
+    "gpa": 3.45,
+    "status": "In Final Rounds",
+    "company": "Starlight Systems",
+    "companyLogo": "⭐",
+    "role": "API Backend Engineer",
+    "location": "Chicago, IL",
+    "skills": [
+      "Node.js",
+      "React",
+      "TypeScript",
+      "Python"
+    ],
+    "salaryPackage": {
+      "totalUSD": 134000,
+      "totalLPA": 36.2,
+      "baseUSD": 97500,
+      "joiningBonusUSD": 14000,
+      "equityUSD": 22500,
+      "currencyDisplayUSD": "$1,34,000 /yr",
+      "currencyDisplayLPA": "36.2 LPA"
+    },
+    "avatarInitials": "BJ",
+    "placedDate": "2026-08-14"
+  },
+  {
+    "id": 24,
+    "studentId": "STU-2026-024",
+    "name": "Zoe Lopez",
+    "email": "zoe.lopez@university.edu",
+    "degree": "B.S. Software Engineering",
+    "gpa": 3.43,
+    "status": "Placed",
+    "company": "Prism Interactive",
+    "companyLogo": "🎮",
+    "role": "Unreal Engine Developer",
+    "location": "Denver, CO",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "C++",
+      "Go"
+    ],
+    "salaryPackage": {
+      "totalUSD": 125000,
+      "totalLPA": 33.8,
+      "baseUSD": 97000,
+      "joiningBonusUSD": 13000,
+      "equityUSD": 15000,
+      "currencyDisplayUSD": "$1,25,000 /yr",
+      "currencyDisplayLPA": "33.8 LPA"
+    },
+    "avatarInitials": "ZL",
+    "placedDate": "2026-01-17"
+  },
+  {
+    "id": 25,
+    "studentId": "STU-2026-025",
+    "name": "Kavya Bhat",
+    "email": "kavya.bhat@university.edu",
+    "degree": "B.Tech Cybersecurity & Privacy",
+    "gpa": 3.66,
+    "status": "Placed",
+    "company": "QuantumPulse Labs",
+    "companyLogo": "⚡",
+    "role": "AI Core Engineer",
+    "location": "San Jose, CA",
+    "skills": [
+      "Go",
+      "Kubernetes",
+      "Docker",
+      "AWS"
+    ],
+    "salaryPackage": {
+      "totalUSD": 192500,
+      "totalLPA": 52,
+      "baseUSD": 140000,
+      "joiningBonusUSD": 26000,
+      "equityUSD": 26500,
+      "currencyDisplayUSD": "$1,92,500 /yr",
+      "currencyDisplayLPA": "52.0 LPA"
+    },
+    "avatarInitials": "KB",
+    "placedDate": "2026-02-20"
+  },
+  {
+    "id": 26,
+    "studentId": "STU-2026-026",
+    "name": "Daniel Gonzalez",
+    "email": "daniel.gonzalez@university.edu",
+    "degree": "M.S. Data Analytics & AI",
+    "gpa": 3.93,
+    "status": "Placed",
+    "company": "Hyperion Financial",
+    "companyLogo": "📈",
+    "role": "Financial Risk Analyst",
+    "location": "Remote",
+    "skills": [
+      "AWS",
+      "PostgreSQL",
+      "MongoDB",
+      "GraphQL"
+    ],
+    "salaryPackage": {
+      "totalUSD": 212500,
+      "totalLPA": 57.4,
+      "baseUSD": 157500,
+      "joiningBonusUSD": 37000,
+      "equityUSD": 18000,
+      "currencyDisplayUSD": "$2,12,500 /yr",
+      "currencyDisplayLPA": "57.4 LPA"
+    },
+    "avatarInitials": "DG",
+    "placedDate": "2026-03-23"
+  },
+  {
+    "id": 27,
+    "studentId": "STU-2026-027",
+    "name": "Harper Kapoor",
+    "email": "harper.kapoor@university.edu",
+    "degree": "B.Tech Robotics & Automation",
+    "gpa": 3.99,
+    "status": "Placed",
+    "company": "NK Cybernetics",
+    "companyLogo": "🌐",
+    "role": "SDE II",
+    "location": "San Francisco, CA",
+    "skills": [
+      "GraphQL",
+      "Rust",
+      "Kafka",
+      "TensorFlow"
+    ],
+    "salaryPackage": {
+      "totalUSD": 169500,
+      "totalLPA": 45.8,
+      "baseUSD": 125000,
+      "joiningBonusUSD": 20000,
+      "equityUSD": 24500,
+      "currencyDisplayUSD": "$1,69,500 /yr",
+      "currencyDisplayLPA": "45.8 LPA"
+    },
+    "avatarInitials": "HK",
+    "placedDate": "2026-04-26"
+  },
+  {
+    "id": 28,
+    "studentId": "STU-2026-028",
+    "name": "Siddharth Wilson",
+    "email": "siddharth.wilson@university.edu",
+    "degree": "B.Tech Computer Science & Engineering",
+    "gpa": 3.78,
+    "status": "Placed",
+    "company": "Zenith Blockchain Labs",
+    "companyLogo": "⛓️",
+    "role": "Zero-Knowledge Engineer",
+    "location": "New York, NY",
+    "skills": [
+      "TensorFlow",
+      "Solidity",
+      "System Design",
+      "Redis"
+    ],
+    "salaryPackage": {
+      "totalUSD": 178500,
+      "totalLPA": 48.2,
+      "baseUSD": 137500,
+      "joiningBonusUSD": 16000,
+      "equityUSD": 25000,
+      "currencyDisplayUSD": "$1,78,500 /yr",
+      "currencyDisplayLPA": "48.2 LPA"
+    },
+    "avatarInitials": "SW",
+    "placedDate": "2026-05-01"
+  },
+  {
+    "id": 29,
+    "studentId": "STU-2026-029",
+    "name": "Evelyn Malhotra",
+    "email": "evelyn.malhotra@university.edu",
+    "degree": "B.Tech Artificial Intelligence & Data Science",
+    "gpa": 3.5,
+    "status": "Placed",
+    "company": "CyberShield AI",
+    "companyLogo": "🛡️",
+    "role": "Cloud Security Architect",
+    "location": "Seattle, WA",
+    "skills": [
+      "Redis",
+      "Next.js",
+      "OpenCV",
+      "Spark"
+    ],
+    "salaryPackage": {
+      "totalUSD": 168500,
+      "totalLPA": 45.5,
+      "baseUSD": 125000,
+      "joiningBonusUSD": 22000,
+      "equityUSD": 21500,
+      "currencyDisplayUSD": "$1,68,500 /yr",
+      "currencyDisplayLPA": "45.5 LPA"
+    },
+    "avatarInitials": "EM",
+    "placedDate": "2026-06-04"
+  },
+  {
+    "id": 30,
+    "studentId": "STU-2026-030",
+    "name": "Kabir Anderson",
+    "email": "kabir.anderson@university.edu",
+    "degree": "M.S. Computer Science",
+    "gpa": 3.4,
+    "status": "Offered (Pending Acceptance)",
+    "company": "OmniData Analytics",
+    "companyLogo": "📊",
+    "role": "Data Engineer",
+    "location": "Austin, TX",
+    "skills": [
+      "Spark",
+      "Linux Kernel",
+      "Node.js",
+      "React"
+    ],
+    "salaryPackage": {
+      "totalUSD": 148000,
+      "totalLPA": 40,
+      "baseUSD": 110000,
+      "joiningBonusUSD": 18000,
+      "equityUSD": 20000,
+      "currencyDisplayUSD": "$1,48,000 /yr",
+      "currencyDisplayLPA": "40.0 LPA"
+    },
+    "avatarInitials": "KA",
+    "placedDate": "2026-07-07"
+  },
+  {
+    "id": 31,
+    "studentId": "STU-2026-031",
+    "name": "James Singh",
+    "email": "james.singh@university.edu",
+    "degree": "B.S. Software Engineering",
+    "gpa": 3.58,
+    "status": "Placed",
+    "company": "Aether Dynamics",
+    "companyLogo": "☁️",
+    "role": "Kubernetes Engineer",
+    "location": "Boston, MA",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Python",
+      "PyTorch"
+    ],
+    "salaryPackage": {
+      "totalUSD": 148000,
+      "totalLPA": 40,
+      "baseUSD": 107500,
+      "joiningBonusUSD": 16000,
+      "equityUSD": 24500,
+      "currencyDisplayUSD": "$1,48,000 /yr",
+      "currencyDisplayLPA": "40.0 LPA"
+    },
+    "avatarInitials": "JS",
+    "placedDate": "2026-08-10"
+  },
+  {
+    "id": 32,
+    "studentId": "STU-2026-032",
+    "name": "Abigail Thomas",
+    "email": "abigail.thomas@university.edu",
+    "degree": "B.Tech Cybersecurity & Privacy",
+    "gpa": 3.87,
+    "status": "Placed",
+    "company": "Vortex Cloud Tech",
+    "companyLogo": "🌀",
+    "role": "CI/CD Pipeline Lead",
+    "location": "Chicago, IL",
+    "skills": [
+      "PyTorch",
+      "C++",
+      "Go",
+      "Kubernetes"
+    ],
+    "salaryPackage": {
+      "totalUSD": 142000,
+      "totalLPA": 38.4,
+      "baseUSD": 105000,
+      "joiningBonusUSD": 17000,
+      "equityUSD": 20000,
+      "currencyDisplayUSD": "$1,42,000 /yr",
+      "currencyDisplayLPA": "38.4 LPA"
+    },
+    "avatarInitials": "AT",
+    "placedDate": "2026-01-13"
+  },
+  {
+    "id": 33,
+    "studentId": "STU-2026-033",
+    "name": "Rahul Roy",
+    "email": "rahul.roy@university.edu",
+    "degree": "M.S. Data Analytics & AI",
+    "gpa": 4,
+    "status": "Placed",
+    "company": "Novus HealthTech",
+    "companyLogo": "🧬",
+    "role": "HealthTech Software Engineer",
+    "location": "Denver, CO",
+    "skills": [
+      "Kubernetes",
+      "Docker",
+      "AWS",
+      "PostgreSQL"
+    ],
+    "salaryPackage": {
+      "totalUSD": 134000,
+      "totalLPA": 36.2,
+      "baseUSD": 102500,
+      "joiningBonusUSD": 15000,
+      "equityUSD": 16500,
+      "currencyDisplayUSD": "$1,34,000 /yr",
+      "currencyDisplayLPA": "36.2 LPA"
+    },
+    "avatarInitials": "RR",
+    "placedDate": "2026-02-16"
+  },
+  {
+    "id": 34,
+    "studentId": "STU-2026-034",
+    "name": "Emily Taylor",
+    "email": "emily.taylor@university.edu",
+    "degree": "B.Tech Robotics & Automation",
+    "gpa": 3.86,
+    "status": "Placed",
+    "company": "Apex Robotics",
+    "companyLogo": "🤖",
+    "role": "Control Systems Engineer",
+    "location": "San Jose, CA",
+    "skills": [
+      "PostgreSQL",
+      "MongoDB",
+      "GraphQL",
+      "Rust"
+    ],
+    "salaryPackage": {
+      "totalUSD": 144000,
+      "totalLPA": 38.9,
+      "baseUSD": 107000,
+      "joiningBonusUSD": 16000,
+      "equityUSD": 21000,
+      "currencyDisplayUSD": "$1,44,000 /yr",
+      "currencyDisplayLPA": "38.9 LPA"
+    },
+    "avatarInitials": "ET",
+    "placedDate": "2026-03-19"
+  },
+  {
+    "id": 35,
+    "studentId": "STU-2026-035",
+    "name": "Sebastian Saxena",
+    "email": "sebastian.saxena@university.edu",
+    "degree": "B.Tech Computer Science & Engineering",
+    "gpa": 3.57,
+    "status": "Placed",
+    "company": "Starlight Systems",
+    "companyLogo": "⭐",
+    "role": "API Backend Engineer",
+    "location": "Remote",
+    "skills": [
+      "Rust",
+      "Kafka",
+      "TensorFlow",
+      "Solidity"
+    ],
+    "salaryPackage": {
+      "totalUSD": 126500,
+      "totalLPA": 34.2,
+      "baseUSD": 90000,
+      "joiningBonusUSD": 14000,
+      "equityUSD": 22500,
+      "currencyDisplayUSD": "$1,26,500 /yr",
+      "currencyDisplayLPA": "34.2 LPA"
+    },
+    "avatarInitials": "SS",
+    "placedDate": "2026-04-22"
+  },
+  {
+    "id": 36,
+    "studentId": "STU-2026-036",
+    "name": "Neha Moore",
+    "email": "neha.moore@university.edu",
+    "degree": "B.Tech Artificial Intelligence & Data Science",
+    "gpa": 3.4,
+    "status": "Placed",
+    "company": "Prism Interactive",
+    "companyLogo": "🎮",
+    "role": "Unreal Engine Developer",
+    "location": "San Francisco, CA",
+    "skills": [
+      "Solidity",
+      "System Design",
+      "Redis",
+      "Next.js"
+    ],
+    "salaryPackage": {
+      "totalUSD": 117500,
+      "totalLPA": 31.8,
+      "baseUSD": 89500,
+      "joiningBonusUSD": 13000,
+      "equityUSD": 15000,
+      "currencyDisplayUSD": "$1,17,500 /yr",
+      "currencyDisplayLPA": "31.8 LPA"
+    },
+    "avatarInitials": "NM",
+    "placedDate": "2026-05-25"
+  },
+  {
+    "id": 37,
+    "studentId": "STU-2026-037",
+    "name": "Jack Banerjee",
+    "email": "jack.banerjee@university.edu",
+    "degree": "M.S. Computer Science",
+    "gpa": 3.51,
+    "status": "Placed",
+    "company": "QuantumPulse Labs",
+    "companyLogo": "⚡",
+    "role": "AI Core Engineer",
+    "location": "New York, NY",
+    "skills": [
+      "Next.js",
+      "OpenCV",
+      "Spark",
+      "Linux Kernel"
+    ],
+    "salaryPackage": {
+      "totalUSD": 197500,
+      "totalLPA": 53.4,
+      "baseUSD": 145000,
+      "joiningBonusUSD": 26000,
+      "equityUSD": 26500,
+      "currencyDisplayUSD": "$1,97,500 /yr",
+      "currencyDisplayLPA": "53.4 LPA"
+    },
+    "avatarInitials": "JB",
+    "placedDate": "2026-06-28"
+  },
+  {
+    "id": 38,
+    "studentId": "STU-2026-038",
+    "name": "Ella Jackson",
+    "email": "ella.jackson@university.edu",
+    "degree": "B.S. Software Engineering",
+    "gpa": 3.79,
+    "status": "Placed",
+    "company": "Hyperion Financial",
+    "companyLogo": "📈",
+    "role": "Financial Risk Analyst",
+    "location": "Seattle, WA",
+    "skills": [
+      "Linux Kernel",
+      "Node.js",
+      "React",
+      "TypeScript"
+    ],
+    "salaryPackage": {
+      "totalUSD": 217500,
+      "totalLPA": 58.8,
+      "baseUSD": 162500,
+      "joiningBonusUSD": 37000,
+      "equityUSD": 18000,
+      "currencyDisplayUSD": "$2,17,500 /yr",
+      "currencyDisplayLPA": "58.8 LPA"
+    },
+    "avatarInitials": "EJ",
+    "placedDate": "2026-07-03"
+  },
+  {
+    "id": 39,
+    "studentId": "STU-2026-039",
+    "name": "Arjun Iyer",
+    "email": "arjun.iyer@university.edu",
+    "degree": "B.Tech Cybersecurity & Privacy",
+    "gpa": 3.99,
+    "status": "Placed",
+    "company": "NK Cybernetics",
+    "companyLogo": "🌐",
+    "role": "SDE II",
+    "location": "Austin, TX",
+    "skills": [
+      "TypeScript",
+      "Python",
+      "PyTorch",
+      "C++"
+    ],
+    "salaryPackage": {
+      "totalUSD": 174500,
+      "totalLPA": 47.2,
+      "baseUSD": 130000,
+      "joiningBonusUSD": 20000,
+      "equityUSD": 24500,
+      "currencyDisplayUSD": "$1,74,500 /yr",
+      "currencyDisplayLPA": "47.2 LPA"
+    },
+    "avatarInitials": "AI",
+    "placedDate": "2026-08-06"
+  },
+  {
+    "id": 40,
+    "studentId": "STU-2026-040",
+    "name": "Scarlett Martin",
+    "email": "scarlett.martin@university.edu",
+    "degree": "M.S. Data Analytics & AI",
+    "gpa": 3.92,
+    "status": "Placed",
+    "company": "Zenith Blockchain Labs",
+    "companyLogo": "⛓️",
+    "role": "Zero-Knowledge Engineer",
+    "location": "Boston, MA",
+    "skills": [
+      "C++",
+      "Go",
+      "Kubernetes",
+      "Docker"
+    ],
+    "salaryPackage": {
+      "totalUSD": 171000,
+      "totalLPA": 46.2,
+      "baseUSD": 130000,
+      "joiningBonusUSD": 16000,
+      "equityUSD": 25000,
+      "currencyDisplayUSD": "$1,71,000 /yr",
+      "currencyDisplayLPA": "46.2 LPA"
+    },
+    "avatarInitials": "SM",
+    "placedDate": "2026-01-09"
+  },
+  {
+    "id": 41,
+    "studentId": "STU-2026-041",
+    "name": "Henry Sengupta",
+    "email": "henry.sengupta@university.edu",
+    "degree": "B.Tech Robotics & Automation",
+    "gpa": 3.65,
+    "status": "Placed",
+    "company": "CyberShield AI",
+    "companyLogo": "🛡️",
+    "role": "Cloud Security Architect",
+    "location": "Chicago, IL",
+    "skills": [
+      "Docker",
+      "AWS",
+      "PostgreSQL",
+      "MongoDB"
+    ],
+    "salaryPackage": {
+      "totalUSD": 161000,
+      "totalLPA": 43.5,
+      "baseUSD": 117500,
+      "joiningBonusUSD": 22000,
+      "equityUSD": 21500,
+      "currencyDisplayUSD": "$1,61,000 /yr",
+      "currencyDisplayLPA": "43.5 LPA"
+    },
+    "avatarInitials": "HS",
+    "placedDate": "2026-02-12"
+  },
+  {
+    "id": 42,
+    "studentId": "STU-2026-042",
+    "name": "Grace Lee",
+    "email": "grace.lee@university.edu",
+    "degree": "B.Tech Computer Science & Engineering",
+    "gpa": 3.43,
+    "status": "Placed",
+    "company": "OmniData Analytics",
+    "companyLogo": "📊",
+    "role": "Data Engineer",
+    "location": "Denver, CO",
+    "skills": [
+      "MongoDB",
+      "GraphQL",
+      "Rust",
+      "Kafka"
+    ],
+    "salaryPackage": {
+      "totalUSD": 153000,
+      "totalLPA": 41.4,
+      "baseUSD": 115000,
+      "joiningBonusUSD": 18000,
+      "equityUSD": 20000,
+      "currencyDisplayUSD": "$1,53,000 /yr",
+      "currencyDisplayLPA": "41.4 LPA"
+    },
+    "avatarInitials": "GL",
+    "placedDate": "2026-03-15"
+  },
+  {
+    "id": 43,
+    "studentId": "STU-2026-043",
+    "name": "Dev Agarwal",
+    "email": "dev.agarwal@university.edu",
+    "degree": "B.Tech Artificial Intelligence & Data Science",
+    "gpa": 3.45,
+    "status": "Placed",
+    "company": "Aether Dynamics",
+    "companyLogo": "☁️",
+    "role": "Kubernetes Engineer",
+    "location": "San Jose, CA",
+    "skills": [
+      "Kafka",
+      "TensorFlow",
+      "Solidity",
+      "System Design"
+    ],
+    "salaryPackage": {
+      "totalUSD": 153000,
+      "totalLPA": 41.4,
+      "baseUSD": 112500,
+      "joiningBonusUSD": 16000,
+      "equityUSD": 24500,
+      "currencyDisplayUSD": "$1,53,000 /yr",
+      "currencyDisplayLPA": "41.4 LPA"
+    },
+    "avatarInitials": "DA",
+    "placedDate": "2026-04-18"
+  },
+  {
+    "id": 44,
+    "studentId": "STU-2026-044",
+    "name": "Chloe Perez",
+    "email": "chloe.perez@university.edu",
+    "degree": "M.S. Computer Science",
+    "gpa": 3.71,
+    "status": "Placed",
+    "company": "Vortex Cloud Tech",
+    "companyLogo": "🌀",
+    "role": "CI/CD Pipeline Lead",
+    "location": "Remote",
+    "skills": [
+      "System Design",
+      "Redis",
+      "Next.js",
+      "OpenCV"
+    ],
+    "salaryPackage": {
+      "totalUSD": 147000,
+      "totalLPA": 39.7,
+      "baseUSD": 110000,
+      "joiningBonusUSD": 17000,
+      "equityUSD": 20000,
+      "currencyDisplayUSD": "$1,47,000 /yr",
+      "currencyDisplayLPA": "39.7 LPA"
+    },
+    "avatarInitials": "CP",
+    "placedDate": "2026-05-21"
+  },
+  {
+    "id": 45,
+    "studentId": "STU-2026-045",
+    "name": "Wyatt Kulkarni",
+    "email": "wyatt.kulkarni@university.edu",
+    "degree": "B.S. Software Engineering",
+    "gpa": 3.96,
+    "status": "Offered (Pending Acceptance)",
+    "company": "Novus HealthTech",
+    "companyLogo": "🧬",
+    "role": "HealthTech Software Engineer",
+    "location": "San Francisco, CA",
+    "skills": [
+      "OpenCV",
+      "Spark",
+      "Linux Kernel",
+      "Node.js"
+    ],
+    "salaryPackage": {
+      "totalUSD": 126500,
+      "totalLPA": 34.2,
+      "baseUSD": 95000,
+      "joiningBonusUSD": 15000,
+      "equityUSD": 16500,
+      "currencyDisplayUSD": "$1,26,500 /yr",
+      "currencyDisplayLPA": "34.2 LPA"
+    },
+    "avatarInitials": "WK",
+    "placedDate": "2026-06-24"
+  },
+  {
+    "id": 46,
+    "studentId": "STU-2026-046",
+    "name": "Riya Thompson",
+    "email": "riya.thompson@university.edu",
+    "degree": "B.Tech Cybersecurity & Privacy",
+    "gpa": 3.97,
+    "status": "In Final Rounds",
+    "company": "Apex Robotics",
+    "companyLogo": "🤖",
+    "role": "Control Systems Engineer",
+    "location": "New York, NY",
+    "skills": [
+      "Node.js",
+      "React",
+      "TypeScript",
+      "Python"
+    ],
+    "salaryPackage": {
+      "totalUSD": 136500,
+      "totalLPA": 36.9,
+      "baseUSD": 99500,
+      "joiningBonusUSD": 16000,
+      "equityUSD": 21000,
+      "currencyDisplayUSD": "$1,36,500 /yr",
+      "currencyDisplayLPA": "36.9 LPA"
+    },
+    "avatarInitials": "RT",
+    "placedDate": "2026-07-27"
+  },
+  {
+    "id": 47,
+    "studentId": "STU-2026-047",
+    "name": "Julian Trivedi",
+    "email": "julian.trivedi@university.edu",
+    "degree": "M.S. Data Analytics & AI",
+    "gpa": 3.74,
+    "status": "Placed",
+    "company": "Starlight Systems",
+    "companyLogo": "⭐",
+    "role": "API Backend Engineer",
+    "location": "Seattle, WA",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "C++",
+      "Go"
+    ],
+    "salaryPackage": {
+      "totalUSD": 131500,
+      "totalLPA": 35.5,
+      "baseUSD": 95000,
+      "joiningBonusUSD": 14000,
+      "equityUSD": 22500,
+      "currencyDisplayUSD": "$1,31,500 /yr",
+      "currencyDisplayLPA": "35.5 LPA"
+    },
+    "avatarInitials": "JT",
+    "placedDate": "2026-08-02"
+  },
+  {
+    "id": 48,
+    "studentId": "STU-2026-048",
+    "name": "Victoria White",
+    "email": "victoria.white@university.edu",
+    "degree": "B.Tech Robotics & Automation",
+    "gpa": 3.47,
+    "status": "Placed",
+    "company": "Prism Interactive",
+    "companyLogo": "🎮",
+    "role": "Unreal Engine Developer",
+    "location": "Austin, TX",
+    "skills": [
+      "Go",
+      "Kubernetes",
+      "Docker",
+      "AWS"
+    ],
+    "salaryPackage": {
+      "totalUSD": 122500,
+      "totalLPA": 33.1,
+      "baseUSD": 94500,
+      "joiningBonusUSD": 13000,
+      "equityUSD": 15000,
+      "currencyDisplayUSD": "$1,22,500 /yr",
+      "currencyDisplayLPA": "33.1 LPA"
+    },
+    "avatarInitials": "VW",
+    "placedDate": "2026-01-05"
+  },
+  {
+    "id": 49,
+    "studentId": "STU-2026-049",
+    "name": "Karan Mukherjee",
+    "email": "karan.mukherjee@university.edu",
+    "degree": "B.Tech Computer Science & Engineering",
+    "gpa": 3.41,
+    "status": "Placed",
+    "company": "QuantumPulse Labs",
+    "companyLogo": "⚡",
+    "role": "AI Core Engineer",
+    "location": "Boston, MA",
+    "skills": [
+      "AWS",
+      "PostgreSQL",
+      "MongoDB",
+      "GraphQL"
+    ],
+    "salaryPackage": {
+      "totalUSD": 202500,
+      "totalLPA": 54.7,
+      "baseUSD": 150000,
+      "joiningBonusUSD": 26000,
+      "equityUSD": 26500,
+      "currencyDisplayUSD": "$2,02,500 /yr",
+      "currencyDisplayLPA": "54.7 LPA"
+    },
+    "avatarInitials": "KM",
+    "placedDate": "2026-02-08"
+  },
+  {
+    "id": 50,
+    "studentId": "STU-2026-050",
+    "name": "Aria Harris",
+    "email": "aria.harris@university.edu",
+    "degree": "B.Tech Artificial Intelligence & Data Science",
+    "gpa": 3.62,
+    "status": "Placed",
+    "company": "Hyperion Financial",
+    "companyLogo": "📈",
+    "role": "Financial Risk Analyst",
+    "location": "Chicago, IL",
+    "skills": [
+      "GraphQL",
+      "Rust",
+      "Kafka",
+      "TensorFlow"
+    ],
+    "salaryPackage": {
+      "totalUSD": 210000,
+      "totalLPA": 56.8,
+      "baseUSD": 155000,
+      "joiningBonusUSD": 37000,
+      "equityUSD": 18000,
+      "currencyDisplayUSD": "$2,10,000 /yr",
+      "currencyDisplayLPA": "56.8 LPA"
+    },
+    "avatarInitials": "AH",
+    "placedDate": "2026-03-11"
+  }
+]
